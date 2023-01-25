@@ -417,14 +417,7 @@ textarea {
     height: auto;
   }
 
-  .wrapper {
-    max-width: 1060px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-  }
-
-   .header {
+  .header {
     position: fixed;
     top: 0;
     left: 0;
@@ -434,18 +427,27 @@ textarea {
     padding-bottom: 20px;
   }
 
-  .header_active {
-    background: #0E1D28;
-  }
-
   .header-wrapper {
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
   }
 
- 
+  .header-logo {
+    padding-top: 50px;
+  }
+
+  .header-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+  }
 
   .header-nav {
     font-family: 'Open Sans';
@@ -453,9 +455,86 @@ textarea {
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
+  }
+
+  .header-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header-link {
+    
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+  }
+
+  .header-link:hover, .header-link:active, .header-link:focus {
+    opacity: 75%;
+  }
+
+  .header-item {
+    margin-right: 23px;
+  }
+
+  .header-item:last-child {
+    margin-right: 36px;
+  }
+
+  .header-cart {
+    margin-right: 21px;
+  }
+
+  .mobile {
+    padding-left: 31px;
+    border-left: 1px solid white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-right: 45px;
+  }
+
+  .mobile-numbers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .mobile-phone {
+    margin-right: 8px;
+  }
+
+  .mobile-number {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+  }
+
+  .mobile-text {
+    max-width: 155px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
     color: #FFFFFF;
   }
 
+  .order {
+    padding: 14px 19px;
+    background: #FF7400;
+    border: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .order:hover, .order:active, .order:focus {
+    background: #e06500;
+  }
 
   .intro{
     min-height: 100vh;
