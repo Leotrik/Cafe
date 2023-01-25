@@ -540,7 +540,61 @@ textarea {
     min-height: 100vh;
     background: url(../img/bg1.jpg) no-repeat center;
     background-size: cover;
-    padding-top: 263px;
+    padding-top: 332px;
+    padding-left: 164px;
     padding-bottom: 223px;
+    text-align: center;
   }
+
+  .intro-wrapper {
+    max-width: 556px;
+    display: block
+  }
+
+  h1 {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    color: #D67E35;
+  }
+
+  .welcome {
+    font-size: 50px;
+    line-height: 57px;
+  }
+
+  .our {
+    font-size: 80px;
+    line-height: 92px;
+    margin-bottom: 12px;
+  }
+
+  .home {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    margin-bottom: 21px;
+  }
+
+  .menu {
+    padding: 14px 20px;
+    background: #FF7400;
+    border: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .menu:hover, .menu:active, .menu:focus {
+    background: #e06500;
+  }
+
+  
 
