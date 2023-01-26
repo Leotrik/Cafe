@@ -621,7 +621,7 @@ textarea {
   .cards {
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
     height: 328px;
-    width: 349px;
+    width: 100%;
     transform: translateY(-24%);
     background-color: white;
     padding-top: 48px;
@@ -652,3 +652,79 @@ textarea {
   .card-text {
     color: #656363;
   }
+
+  .history {
+    margin-bottom: 122px;
+  }
+
+  .history-wrap {
+    max-width: 77%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 125px;
+    align-items: center;
+  }
+
+  .our-history {
+    text-align: center;
+  }
+
+  .htext {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    margin-bottom: 33px;
+  }
+
+  .ho {
+    color: #D67E34;
+  }
+
+  .his-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+    margin-bottom: 85px;
+  }
+
+  .his-num {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h-numbers {
+    margin-right: 36px;
+  }
+
+  .h-numbers:last-child {
+    margin-right: 0;
+  }
+
+  .n-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .num {
+    font-size: 40px;
+    line-height: 54px;
+    color: #BC9060;
+  }
+
+  .hnt {
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 0;
+  }
+  
