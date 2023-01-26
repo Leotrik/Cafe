@@ -428,7 +428,7 @@ textarea {
   }
 
   .header-wrapper {
-    max-width: 1060px;
+    max-width: 77%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -438,7 +438,7 @@ textarea {
   }
 
   .header-logo {
-    padding-top: 50px;
+    padding-top: 3.5%;
   }
 
   .header-info {
@@ -548,7 +548,8 @@ textarea {
 
   .intro-wrapper {
     max-width: 556px;
-    display: block
+    display: block;
+    margin-bottom: 124px;
   }
 
   h1 {
@@ -568,6 +569,13 @@ textarea {
     line-height: 92px;
     margin-bottom: 12px;
   }
+
+  /*.home-lines {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }*/
 
   .home {
     font-family: 'Open Sans';
@@ -596,5 +604,51 @@ textarea {
     background: #e06500;
   }
 
-  
+  .benef-cards {
+    margin-bottom: 150px;
+  }
 
+  .cards-wrap {
+    max-width: 77%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 31px;
+    align-items: center;
+    
+  }
+
+  .cards {
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    height: 328px;
+    width: 349px;
+    transform: translateY(-24%);
+    background-color: white;
+    padding-top: 48px;
+    text-align: center;
+  }
+
+  .cards-pic {
+    margin-bottom: 4px;
+  }
+
+  .ctext {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .card-title {
+    color: #2C2C2C;
+  }
+
+  .stitle {
+    color: #BC9060;
+  }
+
+  .card-text {
+    color: #656363;
+  }
