@@ -727,4 +727,58 @@ textarea {
     color: #000000;
     margin-top: 0;
   }
+
+  .prazdnik-wrap {
+    background: url(../img/bg2.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 104px;
+    margin-bottom: 132px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .prazdnik-title {
+    margin-left: 165px;
+    margin-right: 331px;
+  }
+
+  .prazdnik-header {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    margin-bottom: 32px;
+  }
+
+  .prazdnik-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+
+  .prazdnik-but {
+    padding: 14px 18px;
+    background: #FF7400;
+    border: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    max-height: 47px;
+    max-width: 157px;
+  }
+
+  
+
+ 
+  
   
