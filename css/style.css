@@ -680,6 +680,10 @@ textarea {
   }
 
   .ho {
+    color: #000000;
+  }
+
+  .hi {
     color: #D67E34;
   }
 
@@ -726,7 +730,7 @@ textarea {
     line-height: 27px;
     color: #000000;
     margin-top: 0;
-  }
+  } 
 
   .prazdnik-wrap {
     background: url(../img/bg2.jpg) no-repeat center;
@@ -775,6 +779,16 @@ textarea {
     color: #FFFFFF;
     max-height: 47px;
     max-width: 157px;
+  }
+
+  .bluda {
+    width: 78.40%;
+    margin: 0 auto;
+  }
+
+  .b-title {
+    text-align: center;
+    margin-bottom: 139px;
   }
 
   
