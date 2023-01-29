@@ -432,7 +432,6 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
   }
@@ -443,7 +442,6 @@ textarea {
 
   .header-info {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-top: 55px;
@@ -459,7 +457,6 @@ textarea {
 
   .header-list {
     display: flex;
-    flex-wrap: wrap;
   }
 
   .header-link {
@@ -495,7 +492,6 @@ textarea {
 
   .mobile-numbers {
     display: flex;
-    flex-wrap: wrap;
   }
   
   .mobile-phone {
