@@ -696,7 +696,6 @@ textarea {
 
   .his-num {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
@@ -735,7 +734,6 @@ textarea {
     padding-bottom: 104px;
     margin-bottom: 132px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -780,11 +778,65 @@ textarea {
   .bluda {
     width: 78.40%;
     margin: 0 auto;
+    margin-bottom: 150px;
   }
 
   .b-title {
     text-align: center;
     margin-bottom: 139px;
+  }
+
+  .b-photo-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .b-photos {
+    margin-right: 30px;
+  }
+
+  .big-pic {
+    width: 445px;
+    height: 478px;
+  }
+
+  .menu-item {
+    display: flex;
+    margin-bottom: 29px;
+  }
+
+  .menu-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .small-pic {
+    margin-right: 30px;
+  }
+
+  .burger{
+    display: flex;
+    align-items: center;
+  }
+
+  .burger-point {
+    width: 39%;
+  }
+
+  .b-text {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000;
+  }
+
+  .burger-text {
+    margin-right: 7px;
+  }
+
+  .burger-point {
+    margin-right: 11px;
   }
 
   
