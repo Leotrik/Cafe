@@ -997,11 +997,13 @@ textarea {
   }
 
   .otzyv {
-    margin: 106px auto;
     text-align: center;
+    margin-bottom: 103px;
+    background: #E6E5E5;
   }
 
   .o-text {
+    padding-top: 106px;
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 400;
@@ -1033,4 +1035,8 @@ textarea {
     line-height: 27px;
     color: #000000;
     margin-bottom: 25px;
+  }
+
+  .o-point {
+    padding-bottom: 106px;
   }
