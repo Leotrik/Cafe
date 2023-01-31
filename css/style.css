@@ -995,3 +995,42 @@ textarea {
     top: 205px;
     left: 192px;
   }
+
+  .otzyv {
+    margin: 106px auto;
+    text-align: center;
+  }
+
+  .o-text {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 23px;
+  }
+
+  .o-photo {
+    margin-bottom: 16px;
+  }
+
+  .o-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 9px;
+  }
+
+  .o-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 25px;
+  }
