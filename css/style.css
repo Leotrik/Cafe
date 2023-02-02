@@ -427,6 +427,14 @@ textarea {
     height: auto;
   }
 
+  h2 {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+  }
+
   .header {
     position: fixed;
     top: 0;
@@ -576,13 +584,6 @@ textarea {
     margin-bottom: 12px;
   }
 
-  /*.home-lines {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }*/
-
   .home {
     font-family: 'Open Sans';
     font-style: normal;
@@ -591,6 +592,30 @@ textarea {
     line-height: 25px;
     color: white;
     margin-bottom: 21px;
+    text-align: center;
+    position: relative;
+  }
+
+  .home::after {
+    display: block;
+    content: '';
+    width: 61px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 12.5px;
+    right: 370px;
+  }
+
+  .home::before {
+    display: block;
+    content: '';
+    width: 61px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 12.5px;
+    right: 125px;
   }
 
   .menu-i {
@@ -676,20 +701,15 @@ textarea {
     text-align: center;
   }
 
-  .htext {
-    font-family: 'Tinos';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 54px;
-    line-height: 62px;
+  .mh {
     margin-bottom: 33px;
   }
 
-  .ho {
+  .black {
     color: #000000;
   }
 
-  .hi {
+  .orange {
     color: #D67E34;
   }
 
@@ -997,13 +1017,19 @@ textarea {
   }
 
   .otzyv {
+    background: #e6e5e5;
+    margin-bottom: 103px; 
+  }
+
+  .otzyv-wrap {
+    margin: 0 auto;
+    width: 63.89%;
     text-align: center;
-    margin-bottom: 103px;
-    background: #E6E5E5;
   }
 
   .o-text {
     padding-top: 106px;
+    
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 400;
@@ -1039,4 +1065,41 @@ textarea {
 
   .o-point {
     padding-bottom: 106px;
+  }
+
+  .gallery {
+    margin-bottom: 100px;
+  }
+
+  .gallery-title {
+    text-align: center;
+    margin-bottom: 73px;
+  }
+
+  .pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .pics:last-child {
+    margin-bottom: 0;
+  }
+
+  .item {
+    margin-right: 30px;
+  }
+
+  .cook {
+    margin-bottom: 100px;
+  }
+
+  .cook-title {
+    text-align: center;
+    margin-bottom: 119px;
+  }
+
+  .foot {
+    min-height: 100vh;
   }
